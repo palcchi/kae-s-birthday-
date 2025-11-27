@@ -1,11 +1,10 @@
 body {
-   margin: 0;
+  margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url('./main.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  background: url('main.png') center/cover no-repeat;
+  filter: brightness(60%);
 }
 
 .candle-count-display {
